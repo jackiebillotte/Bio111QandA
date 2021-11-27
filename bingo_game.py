@@ -12,7 +12,7 @@ import os
 st.markdown(""" <style> .font {
 font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} 
 </style> """, unsafe_allow_html=True)
-st.markdown('<p class="font">BIO 111 Bingo Review</p>', unsafe_allow_html=True)
+st.markdown('<p class="font">BIO 111 Review</p>', unsafe_allow_html=True)
 
 filename = st.sidebar.text_input('Custom Question Set')
 try:
